@@ -1,0 +1,33 @@
+# Flask==3.0.3
+# Flask-Cors==4.0.1
+# Flask-JWT-Extended==4.6.0
+# Flask-SQLAlchemy==3.1.1
+# PyMySQL==1.1.1
+# python-dotenv==1.0.1
+# Werkzeug==3.0.3
+# --- Flask Core ---
+Flask==3.0.3
+Flask-Cors==4.0.1
+Flask-SQLAlchemy==3.1.1
+Flask-JWT-Extended==4.6.0
+Werkzeug==3.0.3
+
+# --- Database & Environment ---
+PyMySQL==1.1.1
+cryptography
+python-dotenv==1.0.1
+
+# --- Security & Password Hashing ---
+bcrypt==4.2.0
+passlib==1.7.4
+
+# --- Utility / Optional (useful for future ML integration) ---
+requests==2.32.3
+gunicorn==22.0.0
+
+# --- Explainable AI (MRI) ---
+tensorflow
+h5py
+scipy
+Pillow
+numpy

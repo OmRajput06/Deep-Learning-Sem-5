@@ -1,0 +1,41 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 40px;
+  background: linear-gradient(to right, #ffffff, #eef6ff, #dfefff);
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-content {
+  max-width: 800px;
+  color: black;
+}
+
+.tagline {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-title span {
+  color: #0077ff;
+}
+
+.hero-description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: #333;
+}

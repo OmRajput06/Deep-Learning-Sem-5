@@ -1,0 +1,47 @@
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.info-left {
+  flex: 1;
+  text-align: center;
+}
+
+.info-left img {
+  max-width: 400px;
+}
+
+.info-right {
+  flex: 1;
+  padding: 0 40px;
+}
+
+.info-right h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.info-right p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.avatars {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatars img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.avatars span {
+  margin-left: 10px;
+  font-weight: 600;
+}
